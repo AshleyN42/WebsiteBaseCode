@@ -1,0 +1,99 @@
+/*scrollbar customization*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: pink;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hotpink;
+}
+
+/*highlight customization - hint: make background transparent for cool effect*/
+::selection {
+  /*changes the background color of highlighted text*/
+  background: pink;
+}
+
+/*first letter of paragraphs customization*/
+p::first-letter{
+  font-size: 125%;
+  color: hotpink;
+}
+
+/*emphasis customization*/
+strike {
+  text-decoration: line-through hotpink;
+}
+
+strong, em {
+  color: hotpink;
+}
+
+u {
+  text-decoration: underline hotpink;
+}
+
+/*main area customization*/
+h1 {
+  text-align: center;
+  color: #ea638c;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+aside {
+  text-align: left;
+}
+
+.box {
+  border-radius:8px;
+  padding:8px;
+}
+
+.links {
+  border-radius:8px;
+  padding:8px;
+  list-style: georgian inside;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.main {
+  border-radius:8px;
+  padding:10px;
+  text-align: justify;
+}
+
+/*LINK CUSTOMIZATION*/
+
+/*unvisited link*/
+a:link {
+  color: hotpink;
+  text-decoration: none;
+  cursor: help;
+}
+
+/* visited links */
+a:visited {
+  color: #963167;
+  text-decoration: none;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #a94ca0;
+}
