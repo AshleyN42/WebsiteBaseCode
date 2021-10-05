@@ -47,35 +47,32 @@ u {
 h1 {
   text-align: center;
   color: #ea638c;
+  text-decoration: dotted underline;
+  font-family: 'Pacifico', cursive;
 }
 
 body {
   background-color: #f8f9fa;
+  font-family: 'Glory', sans-serif;
 }
 
-aside {
-  text-align: left;
-}
-
-.box {
-  border-radius:8px;
-  padding:8px;
-  border-style: groove;
-}
-
-.links {
-  border-radius:8px;
-  padding:8px;
-  list-style: georgian inside;
-}
-
-img {
-  border-radius: 5%;
+.buttons {
+  border: dotted hotpink;
+  color: white;
+  text-align: center;
+  display: inline-block;
 }
 
 .main {
   border-radius:8px;
   padding:10px;
+  text-align: justify;
+  justify-content: flex-end;
+}
+
+.welcome {
+  border-radius:4px;
+  padding:6px;
   text-align: justify;
 }
 
