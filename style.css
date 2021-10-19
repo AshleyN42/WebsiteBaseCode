@@ -56,17 +56,24 @@ body {
   font-family: 'Glory', sans-serif;
 }
 
+img {
+  border-radius:8px;
+}
+
 .buttons {
   border: dotted hotpink;
   color: white;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main {
   border-radius:8px;
   padding:10px;
   text-align: justify;
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -74,6 +81,11 @@ body {
   border-radius:4px;
   padding:6px;
   text-align: justify;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
 }
 
 /*LINK CUSTOMIZATION*/
